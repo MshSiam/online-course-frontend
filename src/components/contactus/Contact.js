@@ -19,9 +19,9 @@ const Contact = () => {
   return (
     <div className="container d-flex my-4 py-3">
       <div className="Social-links">
-        <h4>{phone} : +88 01765871554</h4>
-        <h5>{mail} : Siyamkenway@gmail.com</h5>
-        <p>{location} Kalishema, Brahmanbaria, Bangladesh</p>
+        <h4 className="ch4">{phone} : +88 01765871554</h4>
+        <h5 className="ch5">{mail} : Siyamkenway@gmail.com</h5>
+        <p className="cp">{location} Kalishema, Brahmanbaria, Bangladesh</p>
       </div>
       <div className="form">
         <Form>

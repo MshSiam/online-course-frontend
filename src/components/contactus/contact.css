@@ -2,9 +2,9 @@
   justify-content: space-around;
 }
 
-h4,
-h5,
-p {
+.ch4,
+.ch5,
+.cp {
   text-align: left;
   line-height: 40px;
 }
