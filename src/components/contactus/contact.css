@@ -1,0 +1,13 @@
+.container {
+  justify-content: space-around;
+}
+
+h4,
+h5,
+p {
+  text-align: left;
+  line-height: 40px;
+}
+.Social-links {
+  margin-top: 100px;
+}

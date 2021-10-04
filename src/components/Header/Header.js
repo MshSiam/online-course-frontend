@@ -36,6 +36,12 @@ const Header = () => {
                 About Us
               </NavLink>
             </Nav.Link>
+
+            <Nav.Link>
+              <NavLink to="/contact" className="nav-link">
+                Contact Us
+              </NavLink>
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

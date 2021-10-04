@@ -7,6 +7,7 @@ import About from "./components/About/About"
 import Footer from "./components/Footer/Footer"
 import Home from "./components/Home/Home"
 import NotFound from "./components/NotFound/NotFound"
+import Contact from "./components/contactus/Contact"
 
 function App() {
   return (
@@ -25,6 +26,9 @@ function App() {
           </Route>
           <Route exact path="/about">
             <About></About>
+          </Route>
+          <Route exact path="/contact">
+            <Contact></Contact>
           </Route>
           <Route path="*">
             <NotFound></NotFound>
