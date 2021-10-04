@@ -1,65 +1,68 @@
-import React from 'react';
-import { useState } from 'react';
-import { Carousel } from 'react-bootstrap';
-import './Carousel.css';
+import React from "react"
+import { useState } from "react"
+import { Carousel } from "react-bootstrap"
+import "./Carousel.css"
 
 const CarouselContainer = () => {
-    const [index, setIndex] = useState(0);
+  const [index, setIndex] = useState(0)
 
-    const handleSelect = (selectedIndex, e) => {
-      setIndex(selectedIndex);
-    };
-      return (
-        <Carousel activeIndex={index} onSelect={handleSelect}>
-          <Carousel.Item>
-            <img
-              className="d-block w-100 carousel-img"
-              src="https://images.pexels.com/photos/256490/pexels-photo-256490.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-              alt="First slide"
-            />
-            <Carousel.Caption>
-              <h1 className="fw-bold">
-                <span className="color-dark">Welcome To</span>{" "}
-                <span>University</span>
-              </h1>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100 carousel-img"
-              src="https://images.pexels.com/photos/207692/pexels-photo-207692.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-              alt="Second slide"
-            />
+  const handleSelect = (selectedIndex, e) => {
+    setIndex(selectedIndex)
+  }
+  return (
+    <div>
+      <Carousel activeIndex={index} onSelect={handleSelect}>
+        <Carousel.Item>
+          <img
+            className="d-block w-100 carousel-img"
+            src="https://images.unsplash.com/photo-1506377872008-6645d9d29ef7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80"
+            alt="First slide"
+          />
+          <Carousel.Caption>
+            <h1 className="fw-bold">
+              <span className="color-dark">Welcome To</span>{" "}
+              <span>15 Minute School</span>
+            </h1>
+            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100 carousel-img"
+            src="https://images.unsplash.com/photo-1504817343863-5092a923803e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80"
+            alt="Second slide"
+          />
 
-            <Carousel.Caption>
-              <h1 className="fw-bold">
-                <span className="">Admission Open </span> <span>2022</span>
-              </h1>
-              <p className="">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </p>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100 carousel-img"
-              src="https://images.pexels.com/photos/159490/yale-university-landscape-universities-schools-159490.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-              alt="Third slide"
-            />
+          <Carousel.Caption>
+            <h1 className="fw-bold">
+              <span className="color-dark">Admission</span>{" "}
+              <span className="color-orrange">Open</span>
+            </h1>
+            <p className="color-info">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100 carousel-img"
+            src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            alt="Third slide"
+          />
 
-            <Carousel.Caption>
-              <h1 className="fw-bold">
-                <span className="color-dark">Education </span>{" "}
-                <span className="color-orrange">Master</span>
-              </h1>
-              <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-              </p>
-            </Carousel.Caption>
-          </Carousel.Item>
-        </Carousel>
-      );
-};
+          <Carousel.Caption>
+            <h1 className="fw-bold">
+              <span className="color-dark">Education </span>{" "}
+              <span className="color-orrange">Master</span>
+            </h1>
+            <p>
+              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            </p>
+          </Carousel.Caption>
+        </Carousel.Item>
+      </Carousel>
+    </div>
+  )
+}
 
-export default CarouselContainer;
+export default CarouselContainer

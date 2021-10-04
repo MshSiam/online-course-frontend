@@ -1,0 +1,10 @@
+.mybtn {
+  color: rgb(78, 50, 16);
+  font-weight: 500;
+}
+
+.mybtn:hover {
+  border: 1px solid rgb(78, 50, 16);
+  background-color: #fff;
+  color: rgb(0, 196, 196);
+}

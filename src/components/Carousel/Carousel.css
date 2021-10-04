@@ -1,4 +1,9 @@
-.carousel-img{
-    height: 500px;
-    opacity: .9;
+.carousel-img {
+  height: 500px;
+  width: auto;
+  opacity: 1;
+}
+
+.carousel-img:hover {
+  opacity: 0.8;
 }
