@@ -1,24 +1,25 @@
-import React from 'react';
-import { Card, Col } from 'react-bootstrap';
-import './Service.css';
+import React from "react"
+import { ButtonGroup, Button, Card, CardGroup, Col } from "react-bootstrap"
+import "./Service.css"
 
 const Service = (props) => {
-    const { picture, name } = props.service;
-    return (
-      <Col>
-        <Card>
-          <div className="service-card rounded">
-            <Card.Img
-              className="service-img"
-              height="200px"
-              variant="top"
-              src={picture}
-            />
-            <h5 className="service-title fw-bold text-white">{name}</h5>
-          </div>
-        </Card>
-      </Col>
-    );
-};
+  const { img, name, price } = props.service
+  return (
+    <CardGroup>
+      <Card>
+        <Card.Img className="img" variant="top" src={img} />
+        <Card.Body>
+          <Card.Title>{name}</Card.Title>
+          <Card.Text>
+            This is a wider card with supporting text below as a natural lead-in
+            to additional content. This content is a little bit longer.
+          </Card.Text>
+          <p className="price">Price : ${price}</p>
+          <Button variant="info">Enroll</Button>
+        </Card.Body>
+      </Card>
+    </CardGroup>
+  )
+}
 
-export default Service;
+export default Service

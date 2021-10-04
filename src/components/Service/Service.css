@@ -1,23 +1,15 @@
-.service-card{
-    overflow: hidden;
-    cursor: pointer;
+.service-card {
+  overflow: hidden;
+  cursor: pointer;
 }
-.service-img{
-    position: relative;
-    transition: transform .5s ease-in-out,opacity .3s,-webkit-transform .5s ease-in-out;
+.img {
+  height: 230px;
+  width: auto;
 }
-.service-img:hover{
-    transform: scale3d(1.1,1.1,1);
-    opacity: .9;
+.price {
+  font-weight: bold;
 }
-.service-title{
-    position: absolute;
-    bottom: 65px;
-    left: 80px;
-}
-.color-dark{
-    color: #002147;
-}
-.color-orrange{
-    color: salmon;
+
+.color-dark {
+  color: #002147;
 }

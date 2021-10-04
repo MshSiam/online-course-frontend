@@ -1,12 +1,12 @@
-import './App.css';
-import "bootstrap/dist/css/bootstrap.min.css";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Header from './components/Header/Header';
-import Services from './components/Services/Services';
-import About from './components/About/About';
-import Footer from './components/Footer/Footer';
-import Home from './components/Home/Home';
-import NotFound from './components/NotFound/NotFound';
+import "./App.css"
+import "bootstrap/dist/css/bootstrap.min.css"
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
+import Header from "./components/Header/Header"
+import Services from "./components/Services/Services"
+import About from "./components/About/About"
+import Footer from "./components/Footer/Footer"
+import Home from "./components/Home/Home"
+import NotFound from "./components/NotFound/NotFound"
 
 function App() {
   return (
@@ -27,13 +27,13 @@ function App() {
             <About></About>
           </Route>
           <Route path="*">
-              <NotFound></NotFound>
+            <NotFound></NotFound>
           </Route>
         </Switch>
         <Footer></Footer>
       </Router>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
