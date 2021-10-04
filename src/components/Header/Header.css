@@ -2,3 +2,8 @@
   text-decoration: none;
   font-size: 18px;
 }
+
+.color-dark {
+  color: black !important;
+  font-size: 25px;
+}
