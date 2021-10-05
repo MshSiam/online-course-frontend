@@ -1,3 +1,5 @@
+// Service components.
+
 import React from "react"
 import { ButtonGroup, Button, Card, CardGroup, Col } from "react-bootstrap"
 import "./Service.css"
