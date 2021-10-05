@@ -1,3 +1,5 @@
+// This is footer components
+
 import React from "react"
 import { Container } from "react-bootstrap"
 

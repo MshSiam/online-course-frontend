@@ -1,3 +1,5 @@
+// This is about us page's components
+
 import React from "react"
 import { useEffect } from "react"
 import { useState } from "react"

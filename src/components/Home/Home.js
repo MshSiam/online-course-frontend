@@ -1,3 +1,5 @@
+// This is Home Components
+
 import React from "react"
 import CarouselContainer from "../Carousel/CarouselContainer"
 import SearchBar from "../SearchBar/SearchBar"

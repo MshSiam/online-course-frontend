@@ -1,3 +1,5 @@
+// this Service components for the dedicated service page. it loads all the data of services
+
 import React, { useEffect, useState } from "react"
 import { Container, Row, Spinner } from "react-bootstrap"
 import Service from "../Service/Service"
