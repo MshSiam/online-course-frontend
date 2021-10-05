@@ -1,15 +1,14 @@
 import React from "react"
-import About from "../About/About"
 import CarouselContainer from "../Carousel/CarouselContainer"
 import SearchBar from "../SearchBar/SearchBar"
-import Services from "../Services/Services"
+import Services1 from "../Services/Services1"
 
 const Home = () => {
   return (
     <div>
       <SearchBar></SearchBar>
       <CarouselContainer></CarouselContainer>
-      <Services></Services>
+      <Services1></Services1>
     </div>
   )
 }

@@ -3,7 +3,7 @@ import { useEffect } from "react"
 import { useState } from "react"
 import { Container, Row, Spinner } from "react-bootstrap"
 import Service from "../Service/Service"
-import "./Services.css"
+import "./Services1.css"
 
 const Services = () => {
   const [services, setServices] = useState([])
@@ -22,7 +22,7 @@ const Services = () => {
       <div className="break-line mx-auto mb-3"></div>
       {services.length ? (
         <Row xs={1} md={2} lg={4} className="g-4 mb-5">
-          {services.map((service) => (
+          {services.slice(0, 4).map((service) => (
             <Service key={service.id} service={service}></Service>
           ))}
         </Row>
