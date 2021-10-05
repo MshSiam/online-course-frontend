@@ -2,7 +2,10 @@ import React from "react"
 import { Container, Nav, Navbar } from "react-bootstrap"
 import { NavLink } from "react-router-dom"
 import "./Header.css"
-import logo from "../../images/education-logo-2.png"
+import ReactDOM from "react-dom"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faCoffee } from "@fortawesome/free-solid-svg-icons"
+const element = <FontAwesomeIcon icon={faCoffee} />
 
 const Header = () => {
   return (

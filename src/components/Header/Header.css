@@ -7,3 +7,15 @@
   color: black !important;
   font-size: 25px;
 }
+
+.icon {
+  background-color: #0dcaf0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li a {
+  text-align: left;
+}
